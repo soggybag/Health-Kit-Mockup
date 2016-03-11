@@ -12,6 +12,7 @@
 		7B3E69E51C92386400DAD57A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3E69E31C92386400DAD57A /* Main.storyboard */; };
 		7B3E69E71C92386400DAD57A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7B3E69E61C92386400DAD57A /* Assets.xcassets */; };
 		7B3E69EA1C92386400DAD57A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7B3E69E81C92386400DAD57A /* LaunchScreen.storyboard */; };
+		7B3E69F21C92387500DAD57A /* HealthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B3E69F11C92387500DAD57A /* HealthManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7B3E69E61C92386400DAD57A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7B3E69E91C92386400DAD57A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7B3E69EB1C92386400DAD57A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7B3E69F11C92387500DAD57A /* HealthManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HealthManager.swift; path = ../HealthManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				7B3E69DF1C92386400DAD57A /* AppDelegate.swift */,
 				7B3E69E11C92386400DAD57A /* ViewController.swift */,
+				7B3E69F11C92387500DAD57A /* HealthManager.swift */,
 				7B3E69E31C92386400DAD57A /* Main.storyboard */,
 				7B3E69E61C92386400DAD57A /* Assets.xcassets */,
 				7B3E69E81C92386400DAD57A /* LaunchScreen.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7B3E69E21C92386400DAD57A /* ViewController.swift in Sources */,
+				7B3E69F21C92387500DAD57A /* HealthManager.swift in Sources */,
 				7B3E69E01C92386400DAD57A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
